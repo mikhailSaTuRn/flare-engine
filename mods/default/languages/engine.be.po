@@ -2,7 +2,7 @@
 # (Я толькі вучуся. Выбачайце.)
 # Copyright (C) 2013 Clint Bellanger
 # This file is distributed under the same license as the PACKAGE package.
-# Mikhail Karalevich <mikhail_saturn@tut.by>, 2013.
+# Mikhail Karalevich <saturnmkor@gmail.com>, 2018.
 #
 #, fuzzy
 msgid ""
@@ -30,26 +30,26 @@ msgstr "Вы можаце павялічыць адзін атрыбут у ме
 #: ../../../src/Avatar.cpp:580
 #, fuzzy
 msgid "You are defeated. Game over! ${INPUT_CONTINUE} to exit to Title."
-msgstr "Вас забілі. Канец гульні! Націсніце Enter, каб выйсці ў меню."
+msgstr "Вас забілі. Канец гульні! Націсніце ${INPUT_CONTINUE}, каб выйсці ў меню."
 
 #: ../../../src/Avatar.cpp:583
 #, fuzzy
 msgid "You are defeated. ${INPUT_CONTINUE} to continue."
-msgstr "Вас забілі. Вы губляеце палову вашага %s. Націсніце Enter, каб працягнуць."
+msgstr "Вас забілі. Націсніце ${INPUT_CONTINUE}, каб працягнуць."
 
 #: ../../../src/Avatar.cpp:836
 msgid "Transformation expired. You have been moved back to a safe place."
-msgstr ""
+msgstr "Тэрмін дзеяння трансфармацыі мінуў. Вас вярнулі ў бяспечнае месца."
 
 #: ../../../src/CampaignManager.cpp:124
 #, c-format
 msgid "%d %s removed."
-msgstr "%d %s перанесена."
+msgstr "%d %s выдалена."
 
 #: ../../../src/CampaignManager.cpp:133
 #, c-format
 msgid "%s removed."
-msgstr "%s перанесена."
+msgstr "%s выдалена."
 
 #: ../../../src/CampaignManager.cpp:146
 #, c-format
@@ -118,7 +118,7 @@ msgstr "Па змаўчэнню"
 
 #: ../../../src/GameStateConfigBase.cpp:88
 msgid "Reset ALL settings?"
-msgstr "Зкінуць УСЕ налады?"
+msgstr "Скінуць УСЕ налады?"
 
 #: ../../../src/GameStateConfigBase.cpp:106 ../../../src/MenuNumPicker.cpp:45
 msgid "OK"
@@ -137,7 +137,7 @@ msgstr "Аўдыа"
 #: ../../../src/GameStateConfigBase.cpp:158
 #: ../../../src/GameStateConfigDesktop.cpp:123
 msgid "Interface"
-msgstr "Інтэрфэйс"
+msgstr "Інтэрфейс"
 
 #: ../../../src/GameStateConfigBase.cpp:159
 #: ../../../src/GameStateConfigDesktop.cpp:126
@@ -158,15 +158,15 @@ msgstr "Мова"
 
 #: ../../../src/GameStateConfigBase.cpp:249
 msgid "Show combat text"
-msgstr "Паказваць текст бою"
+msgstr "Паказаць текст бою"
 
 #: ../../../src/GameStateConfigBase.cpp:253
 msgid "Show FPS"
-msgstr "Паказваць FPS"
+msgstr "Паказаць FPS"
 
 #: ../../../src/GameStateConfigBase.cpp:257
 msgid "Colorblind Mode"
-msgstr "Рэжым дальтанізма"
+msgstr "Рэжым дальтанізму"
 
 #: ../../../src/GameStateConfigBase.cpp:261
 #, fuzzy
@@ -175,23 +175,23 @@ msgstr "Апаратныя паверхні"
 
 #: ../../../src/GameStateConfigBase.cpp:265
 msgid "Developer Mode"
-msgstr ""
+msgstr "Рэжым распрацоўшчыка"
 
 #: ../../../src/GameStateConfigBase.cpp:269
 msgid "Always show loot labels"
-msgstr ""
+msgstr "Заўсёды паказваць подпісы рэчаў"
 
 #: ../../../src/GameStateConfigBase.cpp:273
 msgid "Always show stat bar labels"
-msgstr ""
+msgstr "Заўсёды паказваць подпісы стану"
 
 #: ../../../src/GameStateConfigBase.cpp:277
 msgid "Automatically equip items"
-msgstr ""
+msgstr "Аўтаматычна апранаць рэчы"
 
 #: ../../../src/GameStateConfigBase.cpp:281
 msgid "Subtitles"
-msgstr ""
+msgstr "Субцітры"
 
 #: ../../../src/GameStateConfigBase.cpp:285
 msgid "Active Mods"
@@ -212,27 +212,27 @@ msgstr "Дадаць >>"
 #: ../../../src/GameStateConfigBase.cpp:918
 #, fuzzy
 msgid "Version:"
-msgstr "Патрабуе: %s"
+msgstr "Версія:"
 
 #: ../../../src/GameStateConfigBase.cpp:923
 #, fuzzy
 msgid "Game:"
-msgstr "Новая гульня"
+msgstr "Гульня:"
 
 #: ../../../src/GameStateConfigBase.cpp:928
 #, fuzzy
 msgid "Engine version:"
-msgstr "Патрабуе: %s"
+msgstr "Версія рухавіка:"
 
 #: ../../../src/GameStateConfigBase.cpp:936
 #, fuzzy
 msgid "Requires mods:"
-msgstr "Патрабуе: %s"
+msgstr "Патрабуе моды:"
 
 #: ../../../src/GameStateConfigDesktop.cpp:77
 #: ../../../src/GameStateConfigDesktop.cpp:720
 msgid "Clear"
-msgstr ""
+msgstr "Ачысціць"
 
 #: ../../../src/GameStateConfigDesktop.cpp:77
 #: ../../../src/GameStateConfigDesktop.cpp:718
@@ -266,11 +266,11 @@ msgstr "Апаратныя паверхні"
 
 #: ../../../src/GameStateConfigDesktop.cpp:211
 msgid "V-Sync"
-msgstr ""
+msgstr "V-Sync"
 
 #: ../../../src/GameStateConfigDesktop.cpp:215
 msgid "Texture Filtering"
-msgstr ""
+msgstr "Фільтр тэкстур"
 
 #: ../../../src/GameStateConfigDesktop.cpp:219
 msgid "Allow changing gamma"
